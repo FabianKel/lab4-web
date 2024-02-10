@@ -8,13 +8,13 @@ body{
 }
 .dexter{
   width: 700px;
-  height: 530px;
-  background-color: white;
+  height: 600px;
+  background-color: lightblue;
   margin-top: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
-  transform: translateY(100px) translateX(50px);
+  transform: translateY(15px) translateX(50px);
 }
 .hair{
   width: 50px;
@@ -30,7 +30,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: green;
+  transform: translateX(-71px)translateY(-272px);
 }
 .hand{
   width: 50px;
@@ -252,3 +252,105 @@ body{
   border-bottom-right-radius: 90%;
   transform: translateX(118px) translateY(-295.5px) rotate(25deg);
 }
+/*torso*/
+.torso{
+  transform: translateX(-71px) translateY(-321px) rotate(0deg);
+}
+.bata{
+  width: 270px;
+  height: 140px;
+  background-color: #fdfffe;
+  border: 4px solid #090611;
+  transform: translateX(-4px) translateY(570px) rotate(-2deg);
+}
+.arm1{
+  width: 4px;
+  height: 48px;
+  background-color: #090611;
+  transform: translateX(-270px) translateY(565px) rotate(2deg);
+}
+.arm2{
+  width: 4px;
+  height: 48px;
+  background-color: #090611;
+  transform: translateX(-240px) translateY(570px) rotate(-5deg);
+}
+/*hand*/
+
+.finger1{
+  width: 26px;
+  height: 70px;
+  border-radius: 50%;
+  border: #090611 solid 4px;
+  transform: translateX(-274px) translateY(615px) rotate(0deg);
+  background-color:  #5a3086 ;
+}
+.finger2{
+  width: 20px;
+  height: 70px;
+  border-radius: 50%;
+  border: #090611 solid 4px;
+  transform: translateX(-300px) translateY(530px) rotate(35deg);
+  background-color:  #5a3086 ;
+}
+.finger3{
+  width: 20px;
+  height: 70px;
+  border-radius: 50%;
+  border: #090611 solid 4px;
+  transform: translateX(-245px) translateY(455px) rotate(-40deg);
+  background-color:  #5a3086 ;
+}
+.trianhand{
+  width: 0;
+  height: 0px;
+  border-style: solid;
+  border-width: 32px 45px 20px 60px;
+  border-color: transparent #5a3086 transparent transparent;
+  transform: translateX(-343px) translateY(345px) rotate(32deg);
+}
+
+/*botas*/
+.bota {
+  width: 170px;
+  height: 70px;
+  background-color: transparen;
+  transform: translateX(20px) translateY(410px) rotate(0deg);
+}
+
+/* Utilizando el selector + de manera significativa */
+.bota + .bota {
+  margin-left: -90px;
+  margin-top: -60px;
+}
+
+.trian{
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 87px 0 0 110px;
+  border-color: transparent transparent transparent #000000;
+  transform: translateX(70px) translateY(7px) rotate(0deg);
+}
+
+.rec1{
+  width: 60px;
+  height: 85px;
+  background-color: #000000;
+  transform: translateX(36px) translateY(-78px) rotate(0deg);
+}
+.rec2{
+  width: 50px; 
+  height: 70px; 
+  background: #428bca;
+  transform: skew(16deg) translateX(52px) translateY(-149px);
+  background-color: #000000;
+}
+.circ{
+  width: 22px; 
+  height: 36px; 
+  border-radius: 50%;
+  background-color: lightblue;
+  transform: translateX(54px) translateY(-165px) rotate(-15deg);
+}
+
