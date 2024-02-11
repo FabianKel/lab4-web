@@ -633,6 +633,6 @@ body{
     transform: translateX(0);
   }
   100% {
-    transform: translateX(50px); /* Ajusta el valor según tu necesidad */
+    transform: translateX(50px);
   }
 }
