@@ -636,3 +636,15 @@ body{
     transform: translateX(50px);
   }
 }
+
+/*sobra*/
+.dexter::before {
+  content: "";
+  position: relative;
+  width: 260px;
+  height: 60px;
+  border-radius: 45%;
+  background-color: gray;
+  opacity: 50%;
+  transform: translateX(40px) translateY(200px);
+}
